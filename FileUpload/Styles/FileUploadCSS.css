@@ -1,0 +1,22 @@
+﻿.Drop-Zone {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background: #30f949;
+    text-align: center;
+    height: 200px;
+    border-radius: 95px;
+    background-image: linear-gradient(#30f949, black);
+    transition: width 1s ease;
+}
+
+    .Drop-Zone:hover {
+        width: 500px;
+    }
+
+.uploadBtn {
+    border-radius: 20px;
+    box-shadow: inset 0 4px 10px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(217, 229, 33, 0.77)
+}
